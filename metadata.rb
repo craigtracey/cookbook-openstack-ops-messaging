@@ -13,4 +13,4 @@ recipe "rabbitmq-server", "Installs and configures RabbitMQ and is called via th
 end
 
 depends "rabbitmq", ">= 2.1.0"
-depends "openstack-common", "~> 0.2.4"
+depends "openstack-common", "~> 0.3.0"
